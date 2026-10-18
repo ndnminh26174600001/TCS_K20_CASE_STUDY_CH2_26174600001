@@ -1,0 +1,18 @@
+ma_may = input("Nhap ma may:")
+print(ma_may,type(ma_may))
+cong_suat_w = input("Nhap cong suat W:")
+print(cong_suat_w,type(cong_suat_w))
+so_phut_su_dung = input("Nhap so phut su dung:")
+print(so_phut_su_dung,type(so_phut_su_dung))
+don_gia_dien_kWh = input("Nhap don gia dien_kWh:")
+print(don_gia_dien_kWh,type(don_gia_dien_kWh))
+cong_suat_w = float(cong_suat_w)
+print(cong_suat_w,type(cong_suat_w))
+so_phut_su_dung = int(so_phut_su_dung)
+print(so_phut_su_dung,type(so_phut_su_dung))
+don_gia_dien_kWh = float(don_gia_dien_kWh)
+print(don_gia_dien_kWh,type(don_gia_dien_kWh))
+dien_nang = cong_suat_w*so_phut_su_dung/60/1000
+chi_phi = dien_nang*don_gia_dien_kWh
+print("Dien nang(kWh):",dien_nang,type(dien_nang))
+print("Chi phi(dong):",chi_phi,type(chi_phi))
